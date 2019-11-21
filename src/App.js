@@ -1,13 +1,13 @@
 import React from "react";
-import "./App.css";
 import Loader from "react-loader-spinner";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>Hello Windows!</p>
-        <Loader type="Puff" color="#00BFFF" height={100} width={100} />
+        <Loader type="Puff" color="#09d3ac" height={50} width={50} />
         <a
           className="App-link"
           href="https://github.com/mellmontenegro/weather-react-app"
