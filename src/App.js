@@ -7,13 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Hello Windows!</p>
-        <Loader
-          type="Puff"
-          color="#00BFFF"
-          height={100}
-          width={100}
-          timeout={3000} //3 secs
-        />
+        <Loader type="Puff" color="#00BFFF" height={100} width={100} />
         <a
           className="App-link"
           href="https://github.com/mellmontenegro/weather-react-app"
